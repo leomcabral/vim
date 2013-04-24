@@ -7,3 +7,6 @@
 [submodule "vim/bundle/scala-vim-support"]
 	path = vim/bundle/scala-vim-support
 	url = https://github.com/rosstimson/scala-vim-support.git
+[submodule "vim/bundle/powerline"]
+	path = vim/bundle/powerline
+	url = https://github.com/Lokaltog/powerline.git
