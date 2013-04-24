@@ -22,3 +22,6 @@
 [submodule "vim/bundle/command-t"]
 	path = vim/bundle/command-t
 	url = https://github.com/wincent/Command-T.git
+[submodule "vim/bundle/groovy"]
+	path = vim/bundle/groovy
+	url = https://github.com/vim-scripts/groovy.vim.git
