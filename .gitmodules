@@ -4,3 +4,6 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic
+[submodule "vim/bundle/scala-vim-support"]
+	path = vim/bundle/scala-vim-support
+	url = https://github.com/rosstimson/scala-vim-support.git
