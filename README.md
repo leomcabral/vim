@@ -12,12 +12,6 @@ Requiriments
 * Vim with python support installed (check with vim --help | grep +python)
 
 
-How to install
---------------
-
-
-
-
 Modules
 -------
 
