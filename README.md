@@ -18,7 +18,9 @@ Modules
 This section lists the vim modules used.
 
 * [CtrlP] (https://github.com/kien/ctrlp.vim.git)
+* [fugitive] (http://github.com/scrooloose/vim-fugitive)
 * [NERDTree] (https://github.com/scrooloose/nerdtree.git)
 * [powerline] (http://github.com/Lokaltog/powerline)
 * [scala-vim-support] (http://github.com/rosstimson/scala-vim-support)
 * [syntastic] (http://github.com/scrooloose/syntastic)
+
