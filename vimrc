@@ -131,7 +131,6 @@ set nobackup
 set nowritebackup
 set noswapfile
 
-
 " Setup Pathogen to manage your plugins
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
 " curl -so ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
@@ -142,12 +141,6 @@ call pathogen#infect()
 " ============================================================================
 " Python IDE Setup
 " ============================================================================
-
-
-" Settings for vim-powerline
-" cd ~/.vim/bundle
-" git clone git://github.com/Lokaltog/vim-powerline.git
-set laststatus=2
 
 
 " Settings for ctrlp
@@ -194,4 +187,8 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 " mkdir -p ~/.vim/ftplugin
 " wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
+
+" Powerline
+set laststatus=2
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
