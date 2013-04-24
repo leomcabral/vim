@@ -17,6 +17,7 @@ Modules
 
 This section lists the vim modules used.
 
+* [Command-T] (https://github.com/wincent/Command-T)
 * [CtrlP] (https://github.com/kien/ctrlp.vim.git)
 * [fugitive] (http://github.com/scrooloose/vim-fugitive)
 * [NERDTree] (https://github.com/scrooloose/nerdtree.git)
