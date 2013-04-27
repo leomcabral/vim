@@ -94,8 +94,8 @@ syntax on
 " Showing line numbers and length
 set number  " show line numbers
 set tw=79   " width of document (used by gd)
-set nowrap  " don't automatically wrap on load
-set fo-=t   " don't automatically wrap text when typing
+"set nowrap  " don't automatically wrap on load
+"set fo-=t   " don't automatically wrap text when typing
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
