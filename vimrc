@@ -70,6 +70,9 @@ vnoremap <Leader>s :sort<CR>
 vnoremap < <gv  " better indentation
 vnoremap > >gv  " better indentation
 
+" Mapeamento para o CtrlP
+nnoremap <F12> :CtrlPBuffer<CR>
+nnoremap <C-F12> :CtrlP 
 
 " Show whitespace
 " MUST be inserted BEFORE the colorscheme command
