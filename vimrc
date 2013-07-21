@@ -153,6 +153,8 @@ let g:ctrlp_max_height = 30
 set wildignore+=*.pyc
 set wildignore+=*_build/*
 set wildignore+=*/coverage/*
+set wildignore+=*.class
+set wildignore+=*.jar
 
 
 " Settings for python-mode
@@ -192,6 +194,6 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 set nofoldenable
 
 " Powerline
-set laststatus=2
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+"set laststatus=2
+"set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
