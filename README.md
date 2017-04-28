@@ -9,7 +9,7 @@ Requiriments
 
 * Python 2.7+ (make sure it is in your session path, I really don't know what
   will happen if it isn't there :) )
-* Vim with python support installed (check with vim --help | grep +python)
+* Vim with python support installed (check with vim --version | grep +python)
 
 
 Modules
