@@ -3,12 +3,13 @@
 " DO NOT USE <C-z> FOR SAVING WHEN PRESENTING!
 " ============================================
 
+runtime! debian.vim
+
+set wildmenu
+set path+=**
 
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
-
-" Add line numbers to vim
-set number
 
 " Better copy & paste
 " When you want to paste large blocks of code into vim, press F2 before you
@@ -60,6 +61,11 @@ map <c-h> <c-w>h
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
+" convert all buffers to tabs
+map <Leader>bt <esc>:tab sball<CR><CR>
+" buffer navigation
+map <Leader>bn <esc>:bNext<CR>
+map <Leader>bp <esc>:bprevious<CR>
 
 " map sort function to a key
 vnoremap <Leader>s :sort<CR>
@@ -76,15 +82,15 @@ nnoremap <C-F12> :CtrlP
 
 " Show whitespace
 " MUST be inserted BEFORE the colorscheme command
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
-au InsertLeave * match ExtraWhitespace /\s\+$/
+"autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+"au InsertLeave * match ExtraWhitespace /\s\+$/
 
 
 " Color scheme
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
-set t_Co=256
-color wombat256mod
+"set t_Co=256
+"color wombat256mod
 
 
 " Enable syntax highlighting
@@ -94,13 +100,12 @@ filetype plugin indent on
 syntax on
 
 
-" Showing line numbers and length
-set number  " show line numbers
+" Showing length
 set tw=79   " width of document (used by gd)
 "set nowrap  " don't automatically wrap on load
 "set fo-=t   " don't automatically wrap text when typing
-set colorcolumn=80
-highlight ColorColumn ctermbg=233
+"set colorcolumn=80
+"highlight ColorColumn ctermbg=233
 
 
 " easier formatting of paragraphs
