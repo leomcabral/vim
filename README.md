@@ -22,7 +22,6 @@ This section lists the vim modules used.
 * [fugitive] (http://github.com/scrooloose/vim-fugitive)
 * [groovy] (http://github.com/vim-scripts/groovy.vim.git)
 * [NERDTree] (https://github.com/scrooloose/nerdtree.git)
-* [powerline] (http://github.com/Lokaltog/powerline)
 * [scala-vim-support] (http://github.com/rosstimson/scala-vim-support)
 * [syntastic] (http://github.com/scrooloose/syntastic)
 
