@@ -23,6 +23,9 @@ set clipboard=unnamed
 set mouse=a  " on OSX press ALT and click
 set bs=2     " make backspace behave like normal again
 
+" Set line numbers
+set number
+set relativenumber
 
 " Rebind <Leader> key
 " I like to have it here becuase it is easier to reach than the default and
